@@ -1,4 +1,5 @@
 ﻿<img name = 'img' src = 'base.jpg' />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 <script>
 	function show_image(image_path){
@@ -6,10 +7,10 @@
 	}
 
 	while (true) {
-		var gender = prompt("male or female")
-		if (gender == 'male')
+		var gender = prompt("мальчик или девочка")
+		if (gender == 'мальчик')
 		{
-			var dick_length = prompt("how long is your dick?");
+			var dick_length = prompt("какой длины твой член?(см)");
 			if ((dick_length <= 30) && (dick_length > 0)){
 					if (dick_length > 15){
 					show_image('ELDKj76XkAASODZ.jpg')
@@ -20,14 +21,14 @@
 				}
 				break
 			} else {
-			alert("don't lie")
+			alert("ебать, ага...")
 			}
 		}
-		else if (gender == 'female') {
+		else if (gender == 'девочка') {
 			show_image('small.jpg')
 			break
 		} else {
-			alert('type valid gender')
+			alert('неверный ответ')
 		}
 	}
 	
